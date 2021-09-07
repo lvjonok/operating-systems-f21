@@ -14,9 +14,14 @@ void bubble_sort(int *array, int length) {
 
 int main() {
   int arr[] = {1, 2, 3, 7, 5, -5};
+  printf("Initial array");
+  for (int i = 0; i < sizeof(arr) / sizeof(int); i++) {
+    printf("%d ", arr[i]);
+  }
+  printf("\n");
 
   bubble_sort(arr, sizeof(arr) / sizeof(int));
-
+  printf("Array after sorting");
   for (int i = 0; i < sizeof(arr) / sizeof(int); i++) {
     printf("%d ", arr[i]);
   }

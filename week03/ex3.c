@@ -17,6 +17,7 @@ struct node* create_node(int data) {
 
 // function prints linked list element by element
 void print_list(struct node* head) {
+  printf("Current list: ");
   while (head->next != 0) {
     printf("%d -> ", head->data);
     head = head->next;
@@ -42,16 +43,6 @@ int delete_node(struct node* head, struct node* to_delete) {
   return to_return;
 }
 
-// function removes node given by data from list by searching
-int delete_node_value(struct node* head, int data) {
-  struct node* cur;
-  while (cur->data != data && cur->next != 0) {
-    cur = cur->next;
-  }
-  if (cur->data == data) return delete_node(head, cur);
-  return 0;
-}
-
 int main() {
   struct node* linked_list = create_node(1);
 
@@ -66,9 +57,6 @@ int main() {
   insert_node(el, el2);          // 1 -> 10 -> 1000 -> 100
   insert_node(el2, el3);         // 1 -> 10 -> 1000 -> 10000 -> 100
   insert_node(el2, el4);         // 1 -> 10 -> 1000 -> 100000 -> 10000 -> 100
-
-  delete_node_value(linked_list,
-                    100000);  // 1 -> 10 -> 1000 -> 10000 -> 100
 
   delete_node(linked_list, el);  // 1 -> 1000 -> 10000 -> 100
 
