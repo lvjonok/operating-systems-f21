@@ -1,6 +1,7 @@
-# if ! tail -n 1 ex2.txt 2>/dev/null; then
-#     echo -n "0" 2>/dev/null >> ex2.txt
-# fi
+if ! [ -f ex2.txt ]
+then
+    echo -n 0 >> ex2.txt
+fi
 
 while :
 do
@@ -9,5 +10,3 @@ do
         rm ex2.txt.lock
     fi
 done
-
-# rm a.txt.lock
