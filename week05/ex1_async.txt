@@ -1,0 +1,30 @@
+Someone opened coffee shop number: 0
+Someone opened coffee shop number: 1
+Hello from bad coffee shop number: 0!
+Someone opened coffee shop number: 2
+Someone opened coffee shop number: 3
+Hello from bad coffee shop number: 1!
+Hello from bad coffee shop number: 2!
+Someone opened coffee shop number: 4
+Hello from bad coffee shop number: 3!
+Someone opened coffee shop number: 5
+Someone opened coffee shop number: 6
+Hello from bad coffee shop number: 5!
+Someone opened coffee shop number: 7
+Hello from bad coffee shop number: 6!
+Hello from bad coffee shop number: 4!
+Someone opened coffee shop number: 8
+Hello from bad coffee shop number: 7!
+Someone opened coffee shop number: 9
+Hello from bad coffee shop number: 8!
+Giancarlo closed bad coffee shop with idx: 0
+Giancarlo closed bad coffee shop with idx: 1
+Giancarlo closed bad coffee shop with idx: 2
+Giancarlo closed bad coffee shop with idx: 3
+Giancarlo closed bad coffee shop with idx: 4
+Giancarlo closed bad coffee shop with idx: 5
+Giancarlo closed bad coffee shop with idx: 6
+Giancarlo closed bad coffee shop with idx: 7
+Giancarlo closed bad coffee shop with idx: 8
+Hello from bad coffee shop number: 9!
+Giancarlo closed bad coffee shop with idx: 9
