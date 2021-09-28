@@ -202,8 +202,9 @@ void output_task(process** processes, int n) {
   }
 }
 
-int main() {
-  int quantum = 2;
+int main(int argc, char **argv) {
+  int quantum = atoi(argv[1]);
+  printf("Quantum time is %d\n", quantum);
   int maxn = 10;
   // for case when we need to input manually
   // fscanf(stdin, "%d", &n);
