@@ -1,0 +1,9 @@
+16-bit virtual address
+pages are 8KB
+
+Solution:
+1. Page offset length = 13 (2^13 = 8KB)
+2. Virtual page bits = 16 - 13 = 3
+3. # virtual pages = 2^3 = 8
+
+Answer: 8
