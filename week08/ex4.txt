@@ -1,10 +1,10 @@
-11372
-22076
-32100
-42388
-52676
-62964
-73252
-83540
-93564
-103852
+Memory used: 11356
+Memory used: 21884
+Memory used: 31908
+Memory used: 42196
+Memory used: 52484
+Memory used: 62772
+Memory used: 73060
+Memory used: 83348
+Memory used: 93372
+Memory used: 103660

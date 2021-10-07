@@ -11,7 +11,7 @@ int main() {
     memset(arr, 0, 10 * 1024 * 1024);
 
     getrusage(RUSAGE_SELF, &usage);
-    printf("%d\n", usage.ru_maxrss);
+    printf("Memory used: %d\n", usage.ru_maxrss);
 
     sleep(1);
   }
