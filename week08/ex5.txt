@@ -2,4 +2,4 @@ Difference between physical and virtual memory address?
 
 Answer:
 Physical memory address corresponds to a real hardware memory cell. 
-In contrast, when we access using a virtual memory address, it goes to a page table and maps address to a hardware memory address.
+In contrast, when we access using a virtual memory address, it refers to virtual space of process. Virtual addresses are mapped to the hardware.
