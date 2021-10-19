@@ -1,13 +1,6 @@
-1) We want to increase the hit/miss ratio
+1) We want to decrease the hit/miss ratio
 
-Thus, we want to have more hits that misses. It will happen, if we will have the `distance`(time) between two references to the same page less than the number of pages we have. That would mean, that we would anyway have time to refresh our need in page in R-bits.
-
-Example: page frame is 10
-1 2 3 4 5 6 7 8 9 10 11 1 2 3 4 5 6 7 8 9 10 11
-
-2) We want to decrease the hit/miss ratio
-
-Thus, we want to have more misses than hits. We would achieve this by extending the length between two references to the same page. For example, we can reference pages from 1 to n, and than from n to 1 in reverse order. Only in the middle of this sequence we would have hits, because the same pages would be relatively close to each others.
+Thus, we want to have more misses. It will happen, if we will have the `distance`(time) between two references to the same page more than the number of pages we have. That would mean, that we would anyway have time to refresh our need in page in R-bits.
 
 Example:
-1 2 3 4 5 6 7 6 5 4 3 2 1
+1 2 3 4 5 6 7 8 9 10 11 12 ... n
