@@ -1,0 +1,7 @@
+-rwxrwxrwx 1 leo leo 136 Oct 21 15:58 _ex3.txt
+-rw-rw-rw- 1 leo leo 136 Oct 21 15:58 _ex3.txt
+-rwx---rwx 1 leo leo 136 Oct 21 15:58 _ex3.txt
+-rwxrwxrwx 1 leo leo 136 Oct 21 15:58 _ex3.txt
+660 means that only owner and group can r/w file
+775 means that owner and group has all rights for file and others can only read/execute
+777 means everyone has all rights
