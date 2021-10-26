@@ -1,4 +1,4 @@
-echo "God bless Herman" >> _ex3.txt
+echo "God bless Herman" > _ex3.txt
 rm ex3.txt
 
 chmod -x _ex3.txt -v >> ex3.txt
