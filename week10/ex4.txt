@@ -1,8 +1,2 @@
-FILE: hard links
-h2: h2 file3 h4 h1 h3 
-file3: h2 file3 h4 h1 h3 
-file1: file1 link1 
-h4: h2 file3 h4 h1 h3 
-h1: h2 file3 h4 h1 h3 
-h3: h2 file3 h4 h1 h3 
-link1: file1 link1 
+file1: link1 
+link1: file1 
