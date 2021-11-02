@@ -1,4 +1,4 @@
-chr="/home/leo/operating-systems-f21/week11/lofsdisk"
+chr=`pwd`/lofsdisk
 
 sudo mkdir -p $chr/usr/bin/
 sudo mkdir -p $chr/bin/
