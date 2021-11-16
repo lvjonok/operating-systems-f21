@@ -1,0 +1,9 @@
+Recovery:
+Do not care about deadlocks at the moment of execution. Start to think 
+only when it occured, so do not waste time during processes runtime.
+Prevention:
+We have to ensure that at least one of deadlock conditions is blocked.
+This algorithm might be simplier(faster) than avoidance.
+Avoidance:
+We surely know that the next decision will not lead to the deadlock 
+(if some information is known in advance, decide if granting the resource is safe)
